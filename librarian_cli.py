@@ -1099,7 +1099,7 @@ async def cmd_boot(compact=False, full_context=False):
         "user_knowledge_entries": len(uk_entries),
         "behavioral_entries": len(behavioral_entries),
         "prompt_compression_enabled": compression_enabled,
-        "emoji_compression_active": emoji_compression_active,
+        "abbrev_compression_active": abbrev_compression_active,
         "past_sessions": len(past_sessions),
         "user_profile": user_profile_json,
         "context_block": context_block,
